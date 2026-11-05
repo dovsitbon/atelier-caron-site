@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "Coiffeur et barbier à Amiens centre | L'Atelier Caron, rue Jean Calvin",
+    "description": "Coiffeur et barbier à Amiens centre depuis 2016 : coupe femme, dégradé, barbe au coupe-choux, balayage, coloration. Prix affichés, réservation sur Planity.",
+    "ogAlt": "Un balayage blond ondulé et un dégradé texturé réalisés à L'Atelier Caron, Amiens"
+  },
+  "intro": { "skip": "Passer" },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "L'Atelier Caron, accueil",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "femme": "Femme",
+    "homme": "Homme & barbier",
+    "couleur": "Couleur",
+    "equipe": "L'équipe",
+    "infos": "Infos",
+    "prix": "Prix",
+    "lang": "Langue",
+    "instagram": "Instagram de L'Atelier Caron",
+    "book": "Réserver",
+    "call": "Appeler"
+  },
+  "announce": { "close": "Fermer l'annonce" },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé",
+    "until": "jusqu'à {time}",
+    "reopens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "days": ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+  "hero": {
+    "eyebrow": "Coiffure · Barbier · Amiens centre · Depuis 2016",
+    "title": "Coupe, couleur et barbe, faites avec soin",
+    "lead": "Quentin s'occupe des hommes et de la barbe, Zoé des coupes femme et de la couleur. Un petit salon de la rue Jean Calvin, où l'on prend le temps.",
+    "book": "Réserver",
+    "prices": "Voir les prix",
+    "ratingPlanity": "sur Planity",
+    "ratingGoogle": "sur Google",
+    "reviews": "{count} avis",
+    "altFemme": "Balayage blond sur cheveux longs ondulés, réalisé au salon",
+    "altHomme": "Dégradé bas et dessus texturé, réalisé au salon"
+  },
+  "tiles": {
+    "eyebrow": "Au salon",
+    "title": "Coiffure femme, barbier et couleur à Amiens",
+    "items": {
+      "femme": { "title": "Femme", "text": "Coupes courtes à longues, brushings, boucles", "alt": "Coupe courte bouclée avec nuque dégradée" },
+      "homme": { "title": "Homme & barbier", "text": "Dégradés, coupes ciseaux, barbe au coupe-choux", "alt": "Dégradé à blanc et barbe taillée" },
+      "enfants": { "title": "Enfants", "text": "Garçons et filles jusqu'à 15 ans, de 12 à 30 €", "alt": "" },
+      "couleur": { "title": "Couleur & balayage", "text": "Balayage, mèches, coloration, blond froid", "alt": "Balayage blond sur cheveux longs" },
+      "chignons": { "title": "Chignons & mariage", "text": "Essai, jour J, sur devis", "alt": "Chignon de mariage orné de fleurs fraîches" }
+    }
+  },
+  "prices": {
+    "eyebrow": "Prestations et prix",
+    "title": "Les prix, sans surprise",
+    "lead": "Les mêmes tarifs que sur Planity. Les fourchettes dépendent de la longueur et de l'épaisseur des cheveux ; nous vous confirmons le prix avant de commencer.",
+    "from": "dès",
+    "quote": "Sur devis",
+    "book": "Réserver",
+    "bookAria": "Réserver : {name}",
+    "ask": "Demander",
+    "askAria": "Demander un devis : {name}",
+    "call": "Appeler",
+    "with": "avec",
+    "duration": "Durée",
+    "price": "Prix",
+    "payment": "Paiement en espèces ou par chèque uniquement.",
+    "checked": "Prix relevés le {date}. Ils peuvent évoluer : le prix affiché sur Planity au moment de la réservation fait foi."
+  },
+  "team": {
+    "eyebrow": "L'équipe",
+    "title": "Deux paires de mains, deux spécialités",
+    "lead": "Le salon est petit : vous savez qui vous coiffe, et vous pouvez le choisir au moment de réserver.",
+    "photoNote": "Photo tirée d'une vidéo du salon",
+    "quentin": {
+      "name": "Quentin",
+      "role": "Fondateur, coiffeur barbier",
+      "text": "Il a ouvert l'atelier en 2016. Dégradés progressifs jusqu'à la peau, coupes aux ciseaux, et barbe taillée au coupe-choux avec serviette chaude : c'est lui qui s'occupe des hommes.",
+      "skills": ["Dégradé à blanc", "Barbe au coupe-choux", "Coupe transformation", "Permanente homme"],
+      "book": "Réserver avec Quentin",
+      "alt": "Quentin taille la barbe d'un client au peigne et aux ciseaux"
+    },
+    "zoe": {
+      "name": "Zoé",
+      "role": "Coiffeuse, coloriste",
+      "text": "Formée au salon par Quentin, Zoé s'occupe des femmes : coupes, brushings, chignons, et surtout la couleur. Ses balayages et ses blonds froids remplissent le fil Instagram du salon.",
+      "skills": ["Balayage", "Blond froid et patine", "Coupe femme", "Chignon de mariage"],
+      "book": "Réserver avec Zoé",
+      "alt": "Zoé coiffe une cliente aux cheveux courts bouclés"
+    }
+  },
+  "ba": {
+    "eyebrow": "Avant / après",
+    "title": "Balayages, dégradés, coupes : les transformations",
+    "lead": "Faites glisser le curseur. Toutes les photos ont été prises au salon, sur de vrais clients.",
+    "before": "Avant",
+    "after": "Après",
+    "slider": "Comparer avant et après : {title}",
+    "galleryTitle": "Les réalisations",
+    "filters": { "all": "Tout", "femme": "Femme", "degrade": "Dégradé", "balayage": "Balayage", "barbe": "Barbe" },
+    "filterLabel": "Filtrer les réalisations",
+    "instagram": "Plus de réalisations sur Instagram",
+    "close": "Fermer",
+    "prev": "Photo précédente",
+    "next": "Photo suivante",
+    "open": "Agrandir : {alt}"
+  },
+  "ritual": {
+    "eyebrow": "Le rituel barbier",
+    "title": "La barbe, au coupe-choux et à la serviette chaude",
+    "text": "La coupe d'abord, puis la barbe : taillée, dessinée, et les contours finis au coupe-choux. La serviette chaude et le soin font partie de la prestation, le coiffage aussi. Comptez 45 minutes pour la coupe et la barbe, 30 pour une barbe longue seule.",
+    "points": ["Contours finis à la lame", "Serviette chaude", "Soin et coiffage"],
+    "price": "Coupe + barbe dès 38 € · barbe longue 25 €",
+    "book": "Réserver avec Quentin",
+    "alt": "Quentin taille la barbe d'un client dans le salon"
+  },
+  "gift": {
+    "eyebrow": "Cartes cadeaux",
+    "title": "Offrir une coupe, une barbe ou une couleur",
+    "text": "Des cartes cadeaux homme et femme, préparées au salon. Dites-nous la prestation ou le montant, nous la préparons pour le jour où vous passez la chercher.",
+    "men": "Carte cadeau homme",
+    "women": "Carte cadeau femme",
+    "cta": "Demander une carte cadeau"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "12 rue Jean Calvin, Amiens centre",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "hoursNote": "Horaires à confirmer avec le salon.",
+    "phone": "Téléphone",
+    "payment": "Paiement",
+    "paymentText": "Espèces ou chèque. La carte bancaire n'est pas acceptée.",
+    "access": "Accès",
+    "accessText": "En centre-ville, rue Jean Calvin. Le bouton Itinéraire ouvre le trajet depuis là où vous êtes.",
+    "directions": "Itinéraire",
+    "closed": "Fermé",
+    "closures": "Fermetures exceptionnelles",
+    "mapTitle": "Plan : L'Atelier Caron, 12 rue Jean Calvin, Amiens",
+    "mapLoad": "Afficher la carte",
+    "mapNote": "La carte est chargée depuis Google Maps.",
+    "storefrontAlt": "La devanture du salon, rue Jean Calvin, avec l'enseigne l'Atelier Coiffure"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de venir",
+    "items": [
+      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Les espèces et les chèques uniquement. Le salon ne prend pas la carte bancaire : pensez-y avant de venir. Le paiement se fait sur place, après la prestation." },
+      { "q": "Je vais être en retard, ou je dois annuler", "a": "Prévenez-nous dès que possible au 03 22 40 53 07, ou annulez directement depuis Planity. En cas de gros retard, nous ferons au mieux, mais il faudra peut-être raccourcir la prestation ou la décaler pour ne pas pénaliser le client suivant." },
+      { "q": "Coiffez-vous les enfants ?", "a": "Oui, dès le plus jeune âge : 12 € pour les moins de 2 ans, 15 à 20 € pour les garçons et 20 à 30 € pour les filles jusqu'à 15 ans, selon l'âge et la longueur." },
+      { "q": "Comment connaître le prix exact d'une couleur ?", "a": "Le prix d'une coloration ou d'un balayage dépend de la longueur, de l'épaisseur et de la couleur de départ. Les fourchettes sont affichées plus haut. Pour une décoloration ou un changement important, appelez-nous ou envoyez une photo de vos cheveux avec le formulaire : nous vous donnons un prix avant le rendez-vous." },
+      { "q": "Peut-on choisir son coiffeur ?", "a": "Oui. Sur Planity, choisissez Quentin ou Zoé au moment de réserver. Quentin s'occupe surtout des hommes et de la barbe, Zoé des femmes et de la couleur." },
+      { "q": "Faites-vous les coiffures de mariage ?", "a": "Oui, chignons de mariage et essai au préalable, sur devis. Envoyez-nous la date et une photo d'inspiration avec le formulaire de demande." }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Ce qu'en disent les clients",
+    "via": "Avis relayé sur Instagram"
+  },
+  "devis": {
+    "slug": "devis",
+    "title": "Demande de devis",
+    "metaTitle": "Chignon de mariage, permanente, carte cadeau : demande de devis | L'Atelier Caron Amiens",
+    "metaDescription": "Chignon de mariage, essai, permanente homme ou femme, carte cadeau : envoyez votre demande au salon L'Atelier Caron, 12 rue Jean Calvin à Amiens. Réponse par téléphone ou e-mail.",
+    "eyebrow": "Sur devis",
+    "lead": "Pour un chignon, une permanente, une carte cadeau ou une couleur importante. Remplissez ces quelques lignes, nous vous rappelons avec un prix et une date.",
+    "service": "Prestation",
+    "servicePick": "Choisir une prestation",
+    "services": {
+      "chignon-mariage": "Chignon de mariage",
+      "essai-chignon": "Essai chignon de mariage",
+      "chignon": "Chignon (soirée, événement)",
+      "permanente-femme": "Permanente femme",
+      "permanente-homme": "Permanente homme",
+      "carte-cadeau-femme": "Carte cadeau femme",
+      "carte-cadeau-homme": "Carte cadeau homme",
+      "couleur": "Couleur, décoloration ou balayage"
+    },
+    "date": "Date souhaitée",
+    "dateHint": "Pour un mariage : la date du mariage.",
+    "length": "Longueur des cheveux",
+    "lengths": { "court": "Courts", "mi-long": "Mi-longs", "long": "Longs" },
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "emailHint": "Pour recevoir une copie de votre demande.",
+    "photo": "Photo d'inspiration",
+    "photoHint": "Facultatif. JPG ou PNG, réduite automatiquement.",
+    "photoRemove": "Retirer la photo",
+    "message": "Précisions",
+    "messagePh": "Nombre de personnes, heure de la cérémonie, montant de la carte cadeau…",
+    "required": "obligatoire",
+    "optional": "facultatif",
+    "send": "Envoyer la demande",
+    "sending": "Envoi…",
+    "errors": {
+      "service": "Choisissez une prestation.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "network": "L'envoi n'a pas abouti. Réessayez ou appelez-nous au 03 22 40 53 07."
+    },
+    "done": {
+      "title": "Merci, votre demande est envoyée",
+      "text": "Le salon vous rappelle rapidement avec un prix et une date.",
+      "copy": "Une copie vient de vous être envoyée par e-mail.",
+      "fallbackTitle": "Dernière étape : un appel",
+      "fallbackText": "L'envoi automatique n'est pas encore en place. Appelez le salon pour lui transmettre votre demande, voici le récapitulatif :",
+      "call": "Appeler le salon",
+      "again": "Faire une autre demande"
+    },
+    "email_": {
+      "subject": "Demande de devis",
+      "title": "Nouvelle demande de devis",
+      "confirmSubject": "Votre demande à L'Atelier Caron",
+      "confirmIntro": "Bonjour {name},\n\nMerci pour votre demande. Voici ce que nous avons reçu :",
+      "confirmOutro": "Nous vous rappelons rapidement. Pour toute question, appelez-nous au 03 22 40 53 07.\n\nL'Atelier Caron\n12 rue Jean Calvin, 80000 Amiens\nPaiement en espèces ou par chèque.",
+      "call": "Appeler le salon",
+      "photo": "Photo d'inspiration jointe."
+    }
+  },
+  "legal": {
+    "slug": "mentions-legales",
+    "title": "Mentions légales",
+    "metaDescription": "Mentions légales et données personnelles du site de L'Atelier Caron, coiffeur et barbier à Amiens.",
+    "sections": [
+      { "h": "Éditeur", "p": "L'Atelier Caron (enseigne L'atelier coiffure), salon de coiffure, 12 rue Jean Calvin, 80000 Amiens. Téléphone : 03 22 40 53 07. SIRET : en cours de renseignement." },
+      { "h": "Hébergement", "p": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis." },
+      { "h": "Photos", "p": "Toutes les photos sont celles du salon et de ses réalisations, publiées sur son compte Instagram. Elles ne peuvent pas être réutilisées sans accord." },
+      { "h": "Données personnelles", "p": "Le formulaire de demande transmet votre nom, votre téléphone, votre e-mail et votre photo d'inspiration au salon, par e-mail, pour répondre à votre demande. Ces données ne sont ni revendues ni utilisées à d'autres fins. Vous pouvez demander leur suppression en appelant le salon. Les réservations sont gérées par Planity, selon ses propres conditions." },
+      { "h": "Cookies", "p": "Le site ne dépose pas de cookie publicitaire ni de mesure d'audience. Il retient seulement votre choix de langue. La carte Google Maps n'est chargée que si vous la demandez." }
+    ]
+  },
+  "footer": {
+    "tagline": "Coiffure femme, barbier et couleur au cœur d'Amiens, depuis 2016.",
+    "contact": "Contact",
+    "hours": "Horaires",
+    "follow": "Suivre",
+    "book": "Réserver sur Planity",
+    "legal": "Mentions légales",
+    "devis": "Demande de devis",
+    "rights": "Tous droits réservés."
+  },
+  "logo": { "line": "coiffure · barbier · Amiens" }
+}

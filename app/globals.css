@@ -1,0 +1,396 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte : blanc cassé, noir doux, bois clair du salon, touches de sauge et de terracotta */
+  --color-paper: #f8f5f0;
+  --color-paper-deep: #f0eae1;
+  --color-wood: #cdb79e;
+  --color-wood-soft: #e6d9c9;
+  --color-sage: #8e9c88;
+  --color-sage-deep: #5d6b58;
+  --color-terracotta: #b86b4b;
+  /* Terracotta lisible en petit texte : 5,2:1 sur papier */
+  --color-terracotta-ink: #96512f;
+  --color-ink: #1e1c1a;
+  --color-night: #1e1c1a;
+  /* Texte secondaire : 7:1 sur papier */
+  --color-muted: #57514a;
+  --color-line: #ddd3c5;
+
+  --font-body: var(--font-jost), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color-scheme: light;
+    scroll-padding-top: 7rem;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-wood-soft);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--color-terracotta-ink);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 300;
+    line-height: 1.04;
+    letter-spacing: -0.005em;
+  }
+  .display em {
+    font-style: italic;
+  }
+  .nav-link {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.85;
+    color: var(--color-muted);
+  }
+  .btn-solid,
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3.1rem;
+    padding: 0.85rem 1.8rem;
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    transition:
+      background-color 0.6s var(--ease-soft),
+      color 0.6s var(--ease-soft),
+      border-color 0.6s var(--ease-soft);
+  }
+  .btn-solid {
+    background: var(--color-ink);
+    color: var(--color-paper);
+    border: 1px solid var(--color-ink);
+  }
+  .btn-solid:hover {
+    background: var(--color-terracotta-ink);
+    border-color: var(--color-terracotta-ink);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .btn-line.on-dark:hover {
+    background: var(--color-paper);
+    border-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.2em;
+    transition: background-size 0.6s var(--ease-soft);
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-line);
+    background: #fffdf9;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    border-radius: 0.5rem;
+    transition: border-color 0.3s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-terracotta-ink);
+  }
+  .field::placeholder {
+    color: #958c80;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: var(--color-ink);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--color-line);
+    background: #fffdf9;
+    border-radius: 999px;
+    min-height: 2.75rem;
+    padding: 0.45rem 1.1rem;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.3s,
+      background-color 0.3s,
+      color 0.3s;
+  }
+  .chip:hover {
+    border-color: var(--color-ink);
+  }
+  .chip:has(input:checked),
+  .chip[aria-pressed="true"] {
+    border-color: var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 1px solid var(--color-ink);
+    outline-offset: 3px;
+  }
+
+  /* Photos : zoom très doux au survol */
+  .shine {
+    position: relative;
+    overflow: hidden;
+  }
+  .shine img {
+    transition: transform 1.6s var(--ease-soft);
+  }
+  .shine:hover img,
+  .group:hover .shine img {
+    transform: scale(1.035);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 24px));
+}
+.reveal {
+  transition:
+    opacity 1.2s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 1.2s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.5s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 1.4s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,5 s) : fond blanc cassé, une paire de ciseaux au trait s'ouvre et se ferme une fois,
+   une mèche tombe doucement, « L'ATELIER CARON » apparaît, fondu sur le hero. Une fois par session. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-paper);
+  animation: intro-out 0.3s ease-out 1.2s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-scissors {
+  opacity: 0;
+  animation: fade-in-only 0.25s ease-out 0.05s forwards;
+}
+@keyframes fade-in-only {
+  to {
+    opacity: 1;
+  }
+}
+.intro-scissors .blade-a {
+  animation: snip-a 0.5s cubic-bezier(0.45, 0, 0.3, 1) 0.2s both;
+}
+.intro-scissors .blade-b {
+  animation: snip-b 0.5s cubic-bezier(0.45, 0, 0.3, 1) 0.2s both;
+}
+@keyframes snip-a {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  45% {
+    transform: rotate(-16deg);
+  }
+}
+@keyframes snip-b {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  45% {
+    transform: rotate(16deg);
+  }
+}
+.intro-lock {
+  opacity: 0;
+  animation: lock-fall 0.75s cubic-bezier(0.3, 0, 0.4, 1) 0.48s forwards;
+}
+@keyframes lock-fall {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(0deg);
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(10px, 54px) rotate(18deg);
+  }
+}
+.intro-fade {
+  opacity: 0;
+  animation: fade-up 0.4s var(--ease-soft) var(--d, 0.7s) forwards;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Curseur avant / après */
+.ba-range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: ew-resize;
+}
+.ba-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 44px;
+  height: 100vh;
+  background: transparent;
+}
+.ba-range::-moz-range-thumb {
+  width: 44px;
+  height: 100vh;
+  border: 0;
+  background: transparent;
+}
+
+/* Rangées défilantes (mobile) */
+.snap-row {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.snap-row::-webkit-scrollbar {
+  display: none;
+}
+.snap-row > * {
+  scroll-snap-align: start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+  .intro-curtain {
+    display: none;
+  }
+}

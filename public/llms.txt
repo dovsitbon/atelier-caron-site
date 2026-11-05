@@ -1,0 +1,25 @@
+# L'Atelier Caron – coiffure et barbier, Amiens centre
+
+> Salon de coiffure mixte et barbier au 12 rue Jean Calvin, 80000 Amiens, ouvert depuis 2016 (enseigne « L'atelier coiffure » sur Planity). Quentin s'occupe des hommes (dégradés, barbe au coupe-choux avec serviette chaude), Zoé des femmes (coupes, brushings, chignons) et de la couleur (balayage, mèches, coloration).
+
+- Téléphone : 03 22 40 53 07 (+33 3 22 40 53 07)
+- Réservation en ligne : https://www.planity.com/latelier-coiffure-80000-amiens
+- Paiement : espèces ou chèque uniquement, pas de carte bancaire
+- Notes : 5,0/5 sur 306 avis Planity, 4,9/5 sur 118 avis Google (relevé du 5 novembre 2026)
+- Horaires (Planity, à confirmer) : mardi 10 h – 18 h, mercredi 10 h – 17 h, jeudi et vendredi 10 h – 19 h, samedi 10 h – 17 h ; fermé dimanche et lundi
+- Instagram : https://www.instagram.com/lateliercaron_amiens/
+- Facebook : https://www.facebook.com/AtelierCoiffureAmiens/
+
+## Prix (relevés sur Planity le 5 novembre 2026)
+
+- Homme : coupe + barbe au coupe-choux dès 38 € (45 min) ; coupe classique dégradé à blanc 24 € (30 min) ; coupe transformation dès 30 € ; barbe longue 25 €
+- Femme : cheveux courts 34–38 €, mi-longs 38–42 €, longs 44–48 € ; shampoing + brushing dès 25 € (court/mi-long) ou 30 € (long)
+- Enfants : moins de 2 ans 12 € ; garçon 2–15 ans 15–20 € ; fille 2–15 ans 20–30 €
+- Couleur : oxydation 60–98 € ; semi-temporaire 55–92 € ; décoloration + coupe dès 80 € ; balayage dès 130 € (mi-longs) / 150 € (longs) ; mèches dès 135 € / 155 €
+- Sur devis : chignons, chignon de mariage et essai, permanentes, cartes cadeaux
+
+## Pages
+
+- [Accueil (FR)](https://atelier-caron-amiens.vercel.app/fr) : prestations et prix, équipe, avant / après, rituel barbier, infos pratiques, FAQ
+- [Demande de devis](https://atelier-caron-amiens.vercel.app/fr/devis) : chignon de mariage, permanente, carte cadeau, couleur
+- [English version](https://atelier-caron-amiens.vercel.app/en)

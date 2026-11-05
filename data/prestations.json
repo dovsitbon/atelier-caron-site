@@ -1,0 +1,286 @@
+{
+  "_note": "Prestations et prix relevés sur Planity le 2026-11-05. price : { min, max } pour une fourchette, { from } pour « dès », null pour « sur devis ». book : planity (réservation en ligne), devis (formulaire du site) ou phone (Planity renvoie vers le téléphone). Planity masque encore 3 prestations homme et 1 prestation femme : à compléter avec le salon.",
+  "checked": "2026-11-05",
+  "categories": [
+    {
+      "id": "homme",
+      "title": { "fr": "Homme & barbier", "en": "Men & barbering" },
+      "items": [
+        {
+          "id": "coupe-barbe-coupe-choux",
+          "name": { "fr": "Coupe + taille de barbe au coupe-choux", "en": "Haircut + straight-razor beard trim" },
+          "detail": { "fr": "Soins, serviette chaude et coiffage", "en": "Beard care, hot towel and styling" },
+          "duration": 45,
+          "price": { "from": 38 },
+          "book": "planity"
+        },
+        {
+          "id": "coupe-degrade-blanc",
+          "name": { "fr": "Coupe classique, dégradé à blanc", "en": "Classic cut, skin fade" },
+          "detail": { "fr": "Dégradé progressif, avec ou sans sabot · avec Quentin", "en": "Gradual fade, with or without guards · with Quentin" },
+          "duration": 30,
+          "price": { "min": 24, "max": 24 },
+          "staff": "quentin",
+          "book": "planity"
+        },
+        {
+          "id": "coupe-degrade-simple",
+          "name": { "fr": "Coupe classique, dégradé simple ou ciseaux", "en": "Classic cut, simple fade or scissor cut" },
+          "detail": { "fr": "Avec ou sans sabot · avec Zoé", "en": "With or without guards · with Zoé" },
+          "duration": 30,
+          "price": { "min": 24, "max": 24 },
+          "staff": "zoe",
+          "book": "planity"
+        },
+        {
+          "id": "coupe-transformation",
+          "name": { "fr": "Coupe transformation", "en": "Transformation cut" },
+          "detail": { "fr": "Du long au court, ou cheveux longs avec soin", "en": "Long to short, or long hair with a treatment" },
+          "duration": 45,
+          "price": { "from": 30 },
+          "book": "planity"
+        },
+        {
+          "id": "barbe-longue",
+          "name": { "fr": "Barbe longue", "en": "Long beard" },
+          "detail": { "fr": "Finitions à la lame et serviette chaude", "en": "Razor finish and hot towel" },
+          "duration": 30,
+          "price": { "min": 25, "max": 25 },
+          "book": "planity"
+        }
+      ]
+    },
+    {
+      "id": "femme",
+      "title": { "fr": "Femme", "en": "Women" },
+      "items": [
+        {
+          "id": "coupe-courte",
+          "name": { "fr": "Coupe cheveux courts", "en": "Short hair cut" },
+          "detail": { "fr": "Sous l'oreille (le carré n'en fait pas partie)", "en": "Above the ear line (bobs not included)" },
+          "duration": 30,
+          "price": { "min": 34, "max": 38 },
+          "book": "planity"
+        },
+        {
+          "id": "coupe-mi-longue",
+          "name": { "fr": "Coupe cheveux mi-longs", "en": "Mid-length cut" },
+          "detail": { "fr": "À hauteur d'épaule", "en": "Shoulder length" },
+          "duration": 45,
+          "price": { "min": 38, "max": 42 },
+          "book": "planity"
+        },
+        {
+          "id": "coupe-longue",
+          "name": { "fr": "Coupe cheveux longs", "en": "Long hair cut" },
+          "detail": { "fr": "Sous l'épaule, jusqu'au dos", "en": "Below the shoulders" },
+          "duration": 50,
+          "price": { "min": 44, "max": 48 },
+          "book": "planity"
+        },
+        {
+          "id": "brushing-court",
+          "name": { "fr": "Shampoing + brushing, court à mi-long", "en": "Wash + blow-dry, short to mid-length" },
+          "detail": null,
+          "duration": 30,
+          "price": { "from": 25 },
+          "book": "planity"
+        },
+        {
+          "id": "brushing-long",
+          "name": { "fr": "Shampoing + brushing, cheveux longs", "en": "Wash + blow-dry, long hair" },
+          "detail": null,
+          "duration": 45,
+          "price": { "from": 30 },
+          "book": "planity"
+        }
+      ]
+    },
+    {
+      "id": "enfants",
+      "title": { "fr": "Enfants", "en": "Children" },
+      "items": [
+        {
+          "id": "enfant-moins-2",
+          "name": { "fr": "Moins de 2 ans", "en": "Under 2" },
+          "detail": { "fr": "Garçons et filles", "en": "Boys and girls" },
+          "duration": 30,
+          "price": { "min": 12, "max": 12 },
+          "book": "planity"
+        },
+        {
+          "id": "garcon",
+          "name": { "fr": "Garçon, 2 à 15 ans", "en": "Boy, 2 to 15" },
+          "detail": { "fr": "Avec ou sans shampoing, selon l'âge", "en": "With or without a wash, depending on age" },
+          "duration": 30,
+          "price": { "min": 15, "max": 20 },
+          "book": "planity"
+        },
+        {
+          "id": "fille-court",
+          "name": { "fr": "Fille, 2 à 15 ans, cheveux courts", "en": "Girl, 2 to 15, short hair" },
+          "detail": { "fr": "Jusqu'aux épaules", "en": "Up to the shoulders" },
+          "duration": 30,
+          "price": { "min": 20, "max": 25 },
+          "book": "planity"
+        },
+        {
+          "id": "fille-long",
+          "name": { "fr": "Fille, 2 à 15 ans, cheveux longs", "en": "Girl, 2 to 15, long hair" },
+          "detail": { "fr": "Au-delà des épaules", "en": "Past the shoulders" },
+          "duration": 40,
+          "price": { "min": 25, "max": 30 },
+          "book": "planity"
+        }
+      ]
+    },
+    {
+      "id": "couleur",
+      "title": { "fr": "Couleur, balayage & mèches", "en": "Colour, balayage & highlights" },
+      "items": [
+        {
+          "id": "oxydation-court",
+          "name": { "fr": "Coloration d'oxydation, courts et mi-longs", "en": "Permanent colour, short to mid-length" },
+          "detail": null,
+          "duration": 90,
+          "price": { "min": 60, "max": 90 },
+          "book": "planity"
+        },
+        {
+          "id": "oxydation-long",
+          "name": { "fr": "Coloration d'oxydation, cheveux longs", "en": "Permanent colour, long hair" },
+          "detail": null,
+          "duration": 105,
+          "price": { "min": 66, "max": 98 },
+          "book": "planity"
+        },
+        {
+          "id": "semi-court",
+          "name": { "fr": "Coloration semi-temporaire, courts et mi-longs", "en": "Semi-permanent colour, short to mid-length" },
+          "detail": { "fr": "Part au fil des shampoings, couvre environ 50 % des cheveux blancs", "en": "Fades wash by wash, covers about 50% of greys" },
+          "duration": 90,
+          "price": { "min": 55, "max": 85 },
+          "book": "planity"
+        },
+        {
+          "id": "semi-long",
+          "name": { "fr": "Coloration semi-temporaire, cheveux longs", "en": "Semi-permanent colour, long hair" },
+          "detail": { "fr": "Part au fil des shampoings, couvre environ 50 % des cheveux blancs", "en": "Fades wash by wash, covers about 50% of greys" },
+          "duration": 105,
+          "price": { "min": 60, "max": 92 },
+          "book": "planity"
+        },
+        {
+          "id": "decoloration-coupe",
+          "name": { "fr": "Décoloration + coupe", "en": "Full bleach + cut" },
+          "detail": { "fr": "Tête entière, avec ou sans patine · appelez-nous pour le rendez-vous", "en": "Full head, with or without toner · please call to book" },
+          "duration": 195,
+          "price": { "from": 80 },
+          "book": "phone"
+        },
+        {
+          "id": "balayage-mi-long",
+          "name": { "fr": "Balayage, cheveux mi-longs", "en": "Balayage, mid-length" },
+          "detail": { "fr": "Au-dessus des épaules", "en": "Above the shoulders" },
+          "duration": 225,
+          "price": { "from": 130 },
+          "book": "planity"
+        },
+        {
+          "id": "balayage-long",
+          "name": { "fr": "Balayage, cheveux longs", "en": "Balayage, long hair" },
+          "detail": { "fr": "Sous les épaules", "en": "Below the shoulders" },
+          "duration": 255,
+          "price": { "from": 150 },
+          "book": "planity"
+        },
+        {
+          "id": "meches-court",
+          "name": { "fr": "Mèches, courts et mi-longs", "en": "Highlights, short to mid-length" },
+          "detail": null,
+          "duration": 225,
+          "price": { "from": 135 },
+          "book": "planity"
+        },
+        {
+          "id": "meches-long",
+          "name": { "fr": "Mèches, cheveux longs", "en": "Highlights, long hair" },
+          "detail": { "fr": "Sous les épaules", "en": "Below the shoulders" },
+          "duration": 255,
+          "price": { "from": 155 },
+          "book": "planity"
+        }
+      ]
+    },
+    {
+      "id": "devis",
+      "title": { "fr": "Chignons, permanentes & cartes cadeaux", "en": "Updos, perms & gift cards" },
+      "items": [
+        {
+          "id": "chignon-mi-long",
+          "name": { "fr": "Chignon, cheveux mi-longs", "en": "Updo, mid-length hair" },
+          "detail": null,
+          "duration": 60,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "chignon-long",
+          "name": { "fr": "Chignon, cheveux longs", "en": "Updo, long hair" },
+          "detail": null,
+          "duration": 90,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "chignon-mariage",
+          "name": { "fr": "Chignon de mariage", "en": "Wedding updo" },
+          "detail": null,
+          "duration": 90,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "essai-chignon",
+          "name": { "fr": "Essai chignon de mariage", "en": "Wedding updo trial" },
+          "detail": null,
+          "duration": 60,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "permanente-homme",
+          "name": { "fr": "Permanente homme", "en": "Men's perm" },
+          "detail": { "fr": "Boucles ou mouvement", "en": "Curls or movement" },
+          "duration": 60,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "permanente-femme",
+          "name": { "fr": "Permanente femme", "en": "Women's perm" },
+          "detail": { "fr": "Volume racine, ondulations, boucles", "en": "Root lift, waves, curls" },
+          "duration": 90,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "carte-cadeau-homme",
+          "name": { "fr": "Carte cadeau homme", "en": "Gift card, men" },
+          "detail": { "fr": "Sur demande", "en": "On request" },
+          "duration": null,
+          "price": null,
+          "book": "devis"
+        },
+        {
+          "id": "carte-cadeau-femme",
+          "name": { "fr": "Carte cadeau femme", "en": "Gift card, women" },
+          "detail": { "fr": "Sur demande", "en": "On request" },
+          "duration": null,
+          "price": null,
+          "book": "devis"
+        }
+      ]
+    }
+  ]
+}

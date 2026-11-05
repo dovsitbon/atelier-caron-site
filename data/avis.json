@@ -1,0 +1,18 @@
+{
+  "_note": "Notes publiques relevées à la main. Mettre à jour la date à chaque relevé (elle sert aussi au balisage Google).",
+  "checked": "2026-11-05",
+  "planity": { "rating": 5.0, "count": 306, "url": "https://www.planity.com/latelier-coiffure-80000-amiens" },
+  "google": { "rating": 4.9, "count": 118 },
+  "quotes": [
+    {
+      "author": "Fabien G.",
+      "source": "Instagram",
+      "text": { "fr": "Une expérience agréable avec Quentin. Coupe et barbe parfaites, suivi des exigences. Bravo.", "en": "A pleasant experience with Quentin. Haircut and beard spot on, exactly as I asked. Well done." }
+    },
+    {
+      "author": "Gaëtan C.",
+      "source": "Instagram",
+      "text": { "fr": "Très content de ma coupe de cheveux, très bon service. Un salon que je conseille.", "en": "Very happy with my haircut, great service. A salon I'd recommend." }
+    }
+  ]
+}

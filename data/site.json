@@ -1,0 +1,26 @@
+{
+  "_note": "Coordonnées du salon. Nom à confirmer : « L'Atelier Caron » (Instagram, Facebook) ou « L'atelier coiffure » (Planity, enseigne).",
+  "name": "L'Atelier Caron",
+  "legalName": null,
+  "siret": null,
+  "url": "https://atelier-caron-amiens.vercel.app",
+  "foundingYear": 2016,
+  "phone": "03 22 40 53 07",
+  "phoneIntl": "+33322405307",
+  "email": null,
+  "address": {
+    "street": "12 rue Jean Calvin",
+    "postalCode": "80000",
+    "city": "Amiens",
+    "region": "Hauts-de-France",
+    "country": "FR"
+  },
+  "geo": { "lat": 49.895379, "lng": 2.292369 },
+  "booking": "https://www.planity.com/latelier-coiffure-80000-amiens",
+  "instagram": "https://www.instagram.com/lateliercaron_amiens/",
+  "instagramHandle": "@lateliercaron_amiens",
+  "facebook": "https://www.facebook.com/AtelierCoiffureAmiens/",
+  "maps": "https://www.google.com/maps/dir/?api=1&destination=12+rue+Jean+Calvin+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=12+rue+Jean+Calvin,+80000+Amiens&z=16&output=embed",
+  "payment": ["cash", "cheque"]
+}

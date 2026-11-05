@@ -1,0 +1,198 @@
+{
+  "/media/hero/balayage-blond-ondule.jpg": {
+    "w": 1400,
+    "h": 1621
+  },
+  "/media/hero/degrade-texture-homme.jpg": {
+    "w": 1400,
+    "h": 1750
+  },
+  "/media/equipe/quentin-taille-de-barbe.jpg": {
+    "w": 624,
+    "h": 780
+  },
+  "/media/equipe/zoe-au-travail.jpg": {
+    "w": 720,
+    "h": 900
+  },
+  "/media/salon/devanture-rue-jean-calvin.jpg": {
+    "w": 880,
+    "h": 820
+  },
+  "/media/femme/boucles-naturelles-blondes.jpg": {
+    "w": 1400,
+    "h": 1069
+  },
+  "/media/femme/boucles-foulard-leopard.jpg": {
+    "w": 1400,
+    "h": 1458
+  },
+  "/media/femme/carre-mi-long-lumineux.jpg": {
+    "w": 1400,
+    "h": 914
+  },
+  "/media/femme/lisse-long-blond.jpg": {
+    "w": 1400,
+    "h": 914
+  },
+  "/media/femme/brushing-ondule-chatain.jpg": {
+    "w": 630,
+    "h": 1170
+  },
+  "/media/femme/coupe-courte-boucles-profil.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/femme/carre-flou-ondule.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/femme/chignon-mariage-fleurs.jpg": {
+    "w": 700,
+    "h": 620
+  },
+  "/media/femme/chignon-tresse-mariage.jpg": {
+    "w": 700,
+    "h": 580
+  },
+  "/media/femme/chignon-mariage-profil.jpg": {
+    "w": 500,
+    "h": 620
+  },
+  "/media/femme/demi-queue-ondulee.jpg": {
+    "w": 1400,
+    "h": 1118
+  },
+  "/media/homme-barbier/degrade-americain-arriere.jpg": {
+    "w": 1400,
+    "h": 739
+  },
+  "/media/homme-barbier/coupe-mi-longue-plaquee.jpg": {
+    "w": 1240,
+    "h": 960
+  },
+  "/media/homme-barbier/boucles-degrade-bas.jpg": {
+    "w": 1400,
+    "h": 953
+  },
+  "/media/homme-barbier/texture-degrade-barbe.jpg": {
+    "w": 1400,
+    "h": 904
+  },
+  "/media/homme-barbier/coupe-texture-profil.jpg": {
+    "w": 1400,
+    "h": 1196
+  },
+  "/media/homme-barbier/degrade-blond-barbe.jpg": {
+    "w": 1400,
+    "h": 1118
+  },
+  "/media/homme-barbier/pompadour-degrade-gris.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/homme-barbier/degrade-barbe-profil.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/homme-barbier/mulet-boucle-arriere.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/homme-barbier/texture-boucles-face.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/homme-barbier/degrade-a-blanc-barbe.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/homme-barbier/degrade-a-blanc-profil.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/homme-barbier/rituel-barbe-quentin.jpg": {
+    "w": 720,
+    "h": 780
+  },
+  "/media/couleur/balayage-ondule-dos.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/couleur/balayage-ondule-profil.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/couleur/blond-polaire-lisse.jpg": {
+    "w": 620,
+    "h": 1170
+  },
+  "/media/couleur/balayage-blond-long.jpg": {
+    "w": 640,
+    "h": 800
+  },
+  "/media/couleur/balayage-miel-profil.jpg": {
+    "w": 640,
+    "h": 800
+  },
+  "/media/couleur/blond-froid-attache.jpg": {
+    "w": 1400,
+    "h": 1069
+  },
+  "/media/avant-apres/coupe-courte-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/coupe-courte-apres.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/balayage-froid-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/balayage-froid-apres.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/degrade-texture-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/degrade-texture-apres.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/carre-ondule-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/carre-ondule-apres.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/eclaircissement-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/eclaircissement-apres.jpg": {
+    "w": 640,
+    "h": 800
+  },
+  "/media/avant-apres/balayage-carre-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/balayage-carre-apres.jpg": {
+    "w": 640,
+    "h": 800
+  },
+  "/media/avant-apres/balayage-long-avant.jpg": {
+    "w": 540,
+    "h": 675
+  },
+  "/media/avant-apres/balayage-long-apres.jpg": {
+    "w": 640,
+    "h": 800
+  }
+}

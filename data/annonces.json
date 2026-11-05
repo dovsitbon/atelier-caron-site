@@ -1,0 +1,17 @@
+{
+  "_note": "Bandeau du haut de page. Une annonce s'affiche entre from et to (inclus) ; la plus récente l'emporte. Sans annonce active, c'est le message permanent (default) qui s'affiche. link : booking (Planity), devis (formulaire) ou une ancre (#prix, #infos…).",
+  "default": {
+    "id": "paiement",
+    "text": { "fr": "Paiement en espèces ou par chèque uniquement, pas de carte bancaire.", "en": "Cash or cheque only, cards are not accepted." },
+    "link": null
+  },
+  "items": [
+    {
+      "id": "fetes-2026",
+      "from": "2026-11-15",
+      "to": "2026-12-24",
+      "text": { "fr": "Fêtes de fin d'année : les créneaux partent vite, réservez dès maintenant. Paiement en espèces ou par chèque.", "en": "Christmas is busy: book your slot early. Cash or cheque only." },
+      "link": { "label": { "fr": "Réserver", "en": "Book" }, "to": "booking" }
+    }
+  ]
+}

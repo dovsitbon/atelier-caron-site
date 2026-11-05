@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "Hairdresser and barber in central Amiens | L'Atelier Caron, rue Jean Calvin",
+    "description": "Hairdresser and barber in central Amiens since 2016: women's cuts, fades, straight-razor beards, balayage, colour. Clear prices, booking on Planity.",
+    "ogAlt": "A wavy blonde balayage and a textured fade done at L'Atelier Caron, Amiens"
+  },
+  "intro": { "skip": "Skip" },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "L'Atelier Caron, home",
+    "menu": "Menu",
+    "close": "Close menu",
+    "femme": "Women",
+    "homme": "Men & barber",
+    "couleur": "Colour",
+    "equipe": "The team",
+    "infos": "Visit",
+    "prix": "Prices",
+    "lang": "Language",
+    "instagram": "L'Atelier Caron on Instagram",
+    "book": "Book",
+    "call": "Call"
+  },
+  "announce": { "close": "Dismiss" },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "reopens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "hero": {
+    "eyebrow": "Hair · Barber · Central Amiens · Since 2016",
+    "title": "Cuts, colour and beards, done with care",
+    "lead": "Quentin looks after the men and the beards, Zoé after women's cuts and colour. A small salon on rue Jean Calvin where nobody is rushed.",
+    "book": "Book",
+    "prices": "See prices",
+    "ratingPlanity": "on Planity",
+    "ratingGoogle": "on Google",
+    "reviews": "{count} reviews",
+    "altFemme": "Blonde balayage on long wavy hair, done in the salon",
+    "altHomme": "Low fade with a textured top, done in the salon"
+  },
+  "tiles": {
+    "eyebrow": "In the salon",
+    "title": "Women's hair, barbering and colour in Amiens",
+    "items": {
+      "femme": { "title": "Women", "text": "Short to long cuts, blow-dries, curls", "alt": "Short curly cut with a faded nape" },
+      "homme": { "title": "Men & barber", "text": "Fades, scissor cuts, straight-razor beards", "alt": "Skin fade and trimmed beard" },
+      "enfants": { "title": "Children", "text": "Boys and girls up to 15, from €12 to €30", "alt": "" },
+      "couleur": { "title": "Colour & balayage", "text": "Balayage, highlights, colour, cool blondes", "alt": "Blonde balayage on long hair" },
+      "chignons": { "title": "Updos & weddings", "text": "Trial and wedding day, on quote", "alt": "Wedding bun dressed with fresh flowers" }
+    }
+  },
+  "prices": {
+    "eyebrow": "Services and prices",
+    "title": "Prices, upfront",
+    "lead": "The same prices as on Planity. Ranges depend on the length and thickness of your hair; we confirm the price before we start.",
+    "from": "from",
+    "quote": "On quote",
+    "book": "Book",
+    "bookAria": "Book: {name}",
+    "ask": "Ask",
+    "askAria": "Ask for a quote: {name}",
+    "call": "Call",
+    "with": "with",
+    "duration": "Time",
+    "price": "Price",
+    "payment": "Cash or cheque only.",
+    "checked": "Prices checked on {date}. They may change: the price shown on Planity when you book is the one that applies."
+  },
+  "team": {
+    "eyebrow": "The team",
+    "title": "Two pairs of hands, two specialities",
+    "lead": "It's a small salon: you know who will do your hair, and you choose when you book.",
+    "photoNote": "Still from a salon video",
+    "quentin": {
+      "name": "Quentin",
+      "role": "Founder, hairdresser and barber",
+      "text": "He opened the salon in 2016. Gradual fades down to the skin, scissor cuts, and beards trimmed with a straight razor and a hot towel: he looks after the men.",
+      "skills": ["Skin fade", "Straight-razor beard", "Transformation cut", "Men's perm"],
+      "book": "Book with Quentin",
+      "alt": "Quentin trimming a client's beard with comb and scissors"
+    },
+    "zoe": {
+      "name": "Zoé",
+      "role": "Hairdresser and colourist",
+      "text": "Trained in the salon by Quentin, Zoé looks after the women: cuts, blow-dries, updos, and above all colour. Her balayages and cool blondes fill the salon's Instagram.",
+      "skills": ["Balayage", "Cool blonde and toner", "Women's cuts", "Wedding updos"],
+      "book": "Book with Zoé",
+      "alt": "Zoé styling a client with short curly hair"
+    }
+  },
+  "ba": {
+    "eyebrow": "Before / after",
+    "title": "Balayage, fades, cuts: the transformations",
+    "lead": "Drag the handle. Every photo was taken in the salon, on real clients.",
+    "before": "Before",
+    "after": "After",
+    "slider": "Compare before and after: {title}",
+    "galleryTitle": "Recent work",
+    "filters": { "all": "All", "femme": "Women", "degrade": "Fades", "balayage": "Balayage", "barbe": "Beards" },
+    "filterLabel": "Filter the work",
+    "instagram": "More on Instagram",
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "open": "Enlarge: {alt}"
+  },
+  "ritual": {
+    "eyebrow": "The barber ritual",
+    "title": "Beards, by straight razor and hot towel",
+    "text": "The cut first, then the beard: trimmed, shaped, and the lines finished with a straight razor. The hot towel and the beard care are part of it, and so is the styling. Allow 45 minutes for cut and beard, 30 for a long beard on its own.",
+    "points": ["Lines finished with the razor", "Hot towel", "Beard care and styling"],
+    "price": "Cut + beard from €38 · long beard €25",
+    "book": "Book with Quentin",
+    "alt": "Quentin trimming a client's beard in the salon"
+  },
+  "gift": {
+    "eyebrow": "Gift cards",
+    "title": "Give a cut, a beard or a colour",
+    "text": "Gift cards for men and women, prepared in the salon. Tell us the service or the amount and we'll have it ready when you come to collect it.",
+    "men": "Gift card, men",
+    "women": "Gift card, women",
+    "cta": "Ask for a gift card"
+  },
+  "infos": {
+    "eyebrow": "Visit",
+    "title": "12 rue Jean Calvin, central Amiens",
+    "address": "Address",
+    "hours": "Opening hours",
+    "hoursNote": "Hours to be confirmed with the salon.",
+    "phone": "Phone",
+    "payment": "Payment",
+    "paymentText": "Cash or cheque. Cards are not accepted.",
+    "access": "Getting here",
+    "accessText": "In the town centre, on rue Jean Calvin. The Directions button opens the route from wherever you are.",
+    "directions": "Directions",
+    "closed": "Closed",
+    "closures": "Special closures",
+    "mapTitle": "Map: L'Atelier Caron, 12 rue Jean Calvin, Amiens",
+    "mapLoad": "Show the map",
+    "mapNote": "The map loads from Google Maps.",
+    "storefrontAlt": "The salon front on rue Jean Calvin, with the l'Atelier Coiffure sign"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you come",
+    "items": [
+      { "q": "How can I pay?", "a": "Cash or cheque only. The salon does not take cards, so plan ahead. You pay in the salon, after your appointment." },
+      { "q": "I'm running late, or I need to cancel", "a": "Let us know as soon as you can on 03 22 40 53 07, or cancel directly on Planity. If you're very late we'll do our best, but we may need to shorten or move your appointment so the next client isn't kept waiting." },
+      { "q": "Do you cut children's hair?", "a": "Yes, from the very youngest: €12 for under-twos, €15 to €20 for boys and €20 to €30 for girls up to 15, depending on age and length." },
+      { "q": "How do I get an exact price for colour?", "a": "Colour and balayage prices depend on length, thickness and your starting colour. The ranges are listed above. For bleach or a big change, call us or send a photo of your hair through the form, and we'll give you a price before the appointment." },
+      { "q": "Can I choose who does my hair?", "a": "Yes. On Planity, pick Quentin or Zoé when you book. Quentin mostly looks after men and beards, Zoé after women and colour." },
+      { "q": "Do you do wedding hair?", "a": "Yes, wedding updos with a trial beforehand, on quote. Send us the date and an inspiration photo through the request form." }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "What clients say",
+    "via": "Review shared on Instagram"
+  },
+  "devis": {
+    "slug": "quote",
+    "title": "Request a quote",
+    "metaTitle": "Wedding updo, perm, gift card: request a quote | L'Atelier Caron Amiens",
+    "metaDescription": "Wedding updo, trial, men's or women's perm, gift card: send your request to L'Atelier Caron, 12 rue Jean Calvin, Amiens. We reply by phone or email.",
+    "eyebrow": "On quote",
+    "lead": "For an updo, a perm, a gift card or a big colour change. Fill in these few lines and we'll call you back with a price and a date.",
+    "service": "Service",
+    "servicePick": "Choose a service",
+    "services": {
+      "chignon-mariage": "Wedding updo",
+      "essai-chignon": "Wedding updo trial",
+      "chignon": "Updo (evening, event)",
+      "permanente-femme": "Women's perm",
+      "permanente-homme": "Men's perm",
+      "carte-cadeau-femme": "Gift card, women",
+      "carte-cadeau-homme": "Gift card, men",
+      "couleur": "Colour, bleach or balayage"
+    },
+    "date": "Preferred date",
+    "dateHint": "For a wedding: the wedding date.",
+    "length": "Hair length",
+    "lengths": { "court": "Short", "mi-long": "Mid-length", "long": "Long" },
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "emailHint": "To receive a copy of your request.",
+    "photo": "Inspiration photo",
+    "photoHint": "Optional. JPG or PNG, resized automatically.",
+    "photoRemove": "Remove photo",
+    "message": "Details",
+    "messagePh": "Number of people, time of the ceremony, gift card amount…",
+    "required": "required",
+    "optional": "optional",
+    "send": "Send request",
+    "sending": "Sending…",
+    "errors": {
+      "service": "Choose a service.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "network": "Sending failed. Try again or call us on +33 3 22 40 53 07."
+    },
+    "done": {
+      "title": "Thank you, your request has been sent",
+      "text": "The salon will call you back shortly with a price and a date.",
+      "copy": "A copy has been sent to your email.",
+      "fallbackTitle": "One last step: a phone call",
+      "fallbackText": "Automatic sending isn't set up yet. Please call the salon to pass on your request; here is the summary:",
+      "call": "Call the salon",
+      "again": "Make another request"
+    },
+    "email_": {
+      "subject": "Quote request",
+      "title": "New quote request",
+      "confirmSubject": "Your request to L'Atelier Caron",
+      "confirmIntro": "Hello {name},\n\nThank you for your request. Here is what we received:",
+      "confirmOutro": "We'll call you back shortly. Any questions, call us on +33 3 22 40 53 07.\n\nL'Atelier Caron\n12 rue Jean Calvin, 80000 Amiens\nCash or cheque only.",
+      "call": "Call the salon",
+      "photo": "Inspiration photo attached."
+    }
+  },
+  "legal": {
+    "slug": "legal-notice",
+    "title": "Legal notice",
+    "metaDescription": "Legal notice and privacy for the website of L'Atelier Caron, hairdresser and barber in Amiens.",
+    "sections": [
+      { "h": "Publisher", "p": "L'Atelier Caron (trading as L'atelier coiffure), hair salon, 12 rue Jean Calvin, 80000 Amiens, France. Phone: +33 3 22 40 53 07. Company number (SIRET): to be added." },
+      { "h": "Hosting", "p": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA." },
+      { "h": "Photos", "p": "All photos show the salon and its work, as published on its Instagram account. They may not be reused without permission." },
+      { "h": "Personal data", "p": "The request form sends your name, phone number, email and inspiration photo to the salon by email, only to answer your request. This data is never sold or used for anything else. Call the salon to have it deleted. Bookings are handled by Planity under its own terms." },
+      { "h": "Cookies", "p": "The site sets no advertising or analytics cookies. It only remembers your language choice. The Google map only loads if you ask for it." }
+    ]
+  },
+  "footer": {
+    "tagline": "Women's hair, barbering and colour in the heart of Amiens, since 2016.",
+    "contact": "Contact",
+    "hours": "Hours",
+    "follow": "Follow",
+    "book": "Book on Planity",
+    "legal": "Legal notice",
+    "devis": "Request a quote",
+    "rights": "All rights reserved."
+  },
+  "logo": { "line": "coiffure · barbier · Amiens" }
+}

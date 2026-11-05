@@ -1,0 +1,11 @@
+{
+  "_note": "Paires avant / après pour le curseur de comparaison (images au même format 4:5). tag : femme, degrade, balayage ou barbe.",
+  "items": [
+    { "id": "balayage-carre", "tag": "balayage", "before": "/media/avant-apres/balayage-carre-avant.jpg", "after": "/media/avant-apres/balayage-carre-apres.jpg", "title": { "fr": "Balayage sur carré ondulé", "en": "Balayage on a wavy bob" }, "by": "zoe" },
+    { "id": "coupe-courte", "tag": "femme", "before": "/media/avant-apres/coupe-courte-avant.jpg", "after": "/media/avant-apres/coupe-courte-apres.jpg", "title": { "fr": "Des boucles longues à la coupe courte", "en": "Long curls to a short cut" }, "by": null },
+    { "id": "degrade-texture", "tag": "degrade", "before": "/media/avant-apres/degrade-texture-avant.jpg", "after": "/media/avant-apres/degrade-texture-apres.jpg", "title": { "fr": "Dégradé et dessus texturé", "en": "Fade with a textured top" }, "by": null },
+    { "id": "balayage-froid", "tag": "balayage", "before": "/media/avant-apres/balayage-froid-avant.jpg", "after": "/media/avant-apres/balayage-froid-apres.jpg", "title": { "fr": "Des reflets cuivrés au blond froid", "en": "From brassy to cool blonde" }, "by": null },
+    { "id": "eclaircissement", "tag": "balayage", "before": "/media/avant-apres/eclaircissement-avant.jpg", "after": "/media/avant-apres/eclaircissement-apres.jpg", "title": { "fr": "Éclaircir et faire briller", "en": "Lighter and glossier" }, "by": "zoe" },
+    { "id": "carre-ondule", "tag": "femme", "before": "/media/avant-apres/carre-ondule-avant.jpg", "after": "/media/avant-apres/carre-ondule-apres.jpg", "title": { "fr": "Carré ondulé, reflets froids", "en": "Wavy bob, cool tones" }, "by": null }
+  ]
+}

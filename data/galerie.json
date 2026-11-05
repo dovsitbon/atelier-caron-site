@@ -1,0 +1,23 @@
+{
+  "_note": "Galerie des réalisations. tags : femme, degrade, balayage, barbe (filtres). Les images viennent de public/media (npm run media). Ajoutez ici vos nouvelles photos.",
+  "items": [
+    { "src": "/media/couleur/balayage-blond-long.jpg", "tags": ["balayage", "femme"], "alt": { "fr": "Balayage blond sur cheveux longs ondulés, réalisé par Zoé", "en": "Blonde balayage on long wavy hair, by Zoé" } },
+    { "src": "/media/homme-barbier/degrade-a-blanc-barbe.jpg", "tags": ["degrade", "barbe"], "alt": { "fr": "Dégradé à blanc et barbe taillée, vue de trois quarts", "en": "Skin fade and trimmed beard, three-quarter view" } },
+    { "src": "/media/femme/coupe-courte-boucles-profil.jpg", "tags": ["femme", "degrade"], "alt": { "fr": "Coupe courte bouclée avec dégradé sur la nuque", "en": "Short curly cut with a faded nape" } },
+    { "src": "/media/homme-barbier/rituel-barbe-quentin.jpg", "tags": ["barbe"], "alt": { "fr": "Quentin taille une barbe longue au peigne", "en": "Quentin trimming a long beard with a comb" } },
+    { "src": "/media/couleur/balayage-ondule-dos.jpg", "tags": ["balayage", "femme"], "alt": { "fr": "Balayage miel sur cheveux longs ondulés, vu de dos", "en": "Honey balayage on long wavy hair, back view" } },
+    { "src": "/media/homme-barbier/pompadour-degrade-gris.jpg", "tags": ["degrade"], "alt": { "fr": "Coiffure plaquée en arrière avec dégradé, cheveux poivre et sel", "en": "Slicked-back style with a fade on salt-and-pepper hair" } },
+    { "src": "/media/femme/chignon-mariage-fleurs.jpg", "tags": ["femme"], "alt": { "fr": "Chignon de mariage bas orné de fleurs fraîches", "en": "Low wedding bun dressed with fresh flowers" } },
+    { "src": "/media/homme-barbier/degrade-barbe-profil.jpg", "tags": ["degrade", "barbe"], "alt": { "fr": "Dégradé bas et barbe dessinée, de profil", "en": "Low fade and shaped beard, side profile" } },
+    { "src": "/media/couleur/blond-polaire-lisse.jpg", "tags": ["balayage", "femme"], "alt": { "fr": "Blond froid lumineux sur cheveux longs lissés", "en": "Bright cool blonde on long straight hair" } },
+    { "src": "/media/homme-barbier/boucles-degrade-bas.jpg", "tags": ["degrade"], "alt": { "fr": "Boucles sur le dessus et dégradé bas", "en": "Curls on top with a low fade" } },
+    { "src": "/media/femme/boucles-naturelles-blondes.jpg", "tags": ["femme"], "alt": { "fr": "Boucles naturelles blondes, longueur dans le dos", "en": "Natural blonde curls, back length" } },
+    { "src": "/media/homme-barbier/degrade-blond-barbe.jpg", "tags": ["degrade", "barbe"], "alt": { "fr": "Dégradé sur cheveux décolorés et barbe courte", "en": "Fade on bleached hair with a short beard" } },
+    { "src": "/media/femme/carre-flou-ondule.jpg", "tags": ["femme", "balayage"], "alt": { "fr": "Carré flou ondulé aux reflets froids", "en": "Soft wavy bob with cool tones" } },
+    { "src": "/media/homme-barbier/mulet-boucle-arriere.jpg", "tags": ["degrade", "barbe"], "alt": { "fr": "Mulet bouclé avec dégradé sur les côtés", "en": "Curly mullet with faded sides" } },
+    { "src": "/media/femme/boucles-foulard-leopard.jpg", "tags": ["femme"], "alt": { "fr": "Boucles anglaises blondes attachées d'un foulard", "en": "Blonde ringlets tied up with a scarf" } },
+    { "src": "/media/homme-barbier/texture-degrade-barbe.jpg", "tags": ["degrade", "barbe"], "alt": { "fr": "Coupe texturée, dégradé et barbe de quelques jours", "en": "Textured cut, fade and stubble" } },
+    { "src": "/media/femme/brushing-ondule-chatain.jpg", "tags": ["femme"], "alt": { "fr": "Brushing ondulé sur cheveux châtains longs", "en": "Wavy blow-dry on long brown hair" } },
+    { "src": "/media/couleur/balayage-miel-profil.jpg", "tags": ["balayage", "femme"], "alt": { "fr": "Balayage miel sur cheveux longs lissés, de profil", "en": "Honey balayage on long straight hair, side view" } }
+  ]
+}
